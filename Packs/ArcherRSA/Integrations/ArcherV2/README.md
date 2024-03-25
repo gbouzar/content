@@ -21,9 +21,10 @@ The RSA Archer GRC platform provides a common foundation for managing policies, 
     | applicationDateField | Application date field for fetch | True |
     | fetch_limit | Maximum number of incidents to pull per fetch | False |
     | fetch_time | First fetch timestamp (&lt;number&gt; &lt;time unit&gt;, for example, 12 hours, 7 days, 3 months, 1 year) | False |
+   * Although Archer has a REST API that supports token based auth, credential based auth is requried to achieve all the functionality provided by this integration.
     | fields_to_fetch | List of fields from the application to get into the incident | False |
 
-4. Click **Test** to validate the URLs, token, and connection.
+5. Click **Test** to validate the URLs, token, and connection.
 
 ## Commands
 
